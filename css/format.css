@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 0.8;
+}
+h1 span{
+    font-size: 15px;
+}
+.globalNavi{
+    text-align:center;
+}
+.globalNavi li{
+    display: inline-block;
+    margin-right: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+.globalNavi li :last-child{
+    margin-right: 0;
+}
+.globalNavi a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.mainSection{
+    /* width:90%;
+    margin: 0 auto; */  /* コメント外すと余白設定 */
+    margin-bottom: 50px;
+}
+.mainSection img{
+    object-fit: cover;
+    width:100%; 
+    height: 300px;
+}
+.aboutSection,
+.newsSection{
+    width:90%;
+    margin: 0 5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.hStyle{
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 40px;
+    line-height:1.2;
+}
+.hStyle span{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid #000000;
+}
+
+.aboutSection ul{
+    overflow: hidden;
+    display: flex;
+    padding: 0;
+}
+.aboutSection li{
+    list-style: none;
+    width: 32%;
+    margin: 0 auto;
+}
+.aboutSection li:last-child{
+    margin-right: 0;
+}
+.aboutSection img{
+    width: 100%;
+    object-fit: cover;
+}
+.aboutSection h3{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.aboutSection p { 
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.newsSection table{
+    width: 100%;
+}
+.newsSection th{
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 10%;
+}
+.newsSection td{
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 90%;
+}
+.instagramBt{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.instagramBt a{
+    background-color: #000000;
+    color: #dddddd;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+.copyright{
+    text-align: center;
+    font-size: 11px;
+}
